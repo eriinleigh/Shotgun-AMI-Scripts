@@ -27,9 +27,9 @@ logging.basicConfig(level=logging.INFO, filename=r'W:\DEV\PIPELINE\AFXSCRIPTS\AU
 def main(script, project):
 
 	## get shotgun script information && create the shotgun instance
-	SERVER_PATH = "https://moondog.shotgunstudio.com"
-	SCRIPT_NAME = 'Automatic_Script'
-	SCRIPT_KEY = '1e619c54443fd7e8ab23fb25dbea866fdaf5d3eb3092c35364b08a48b987fb40'
+	SERVER_PATH = ""
+	SCRIPT_NAME = ''
+	SCRIPT_KEY = ''
 
 	sg = Shotgun(SERVER_PATH, SCRIPT_NAME, SCRIPT_KEY)
 
